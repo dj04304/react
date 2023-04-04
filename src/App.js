@@ -52,6 +52,10 @@ function Header(props) {
     </header>
 }
 
+function SignInBtn() {
+  return <button>로그인 버튼</button> 
+}
+
 
 function App() {
   const topics = [
@@ -72,6 +76,7 @@ function App() {
         }}></Nav>
         <Article title="Welcome" body="Hello, Web"></Article>
         <Article title="HI" body="Hello, Test"></Article>
+        <SignInBt></SignInBt>
     </div>
   );
 }
