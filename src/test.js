@@ -7,6 +7,10 @@ function Name() {
 
 }
 
+function Push() {
+    return "테스팅";
+}
+
 function Main() {
     <Name></Name>
 }
