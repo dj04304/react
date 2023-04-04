@@ -53,8 +53,7 @@ function Header(props) {
 }
 
 function SignInBtn() {
-  return <button>로그인 버튼</button> 
-  return <button>로그인 버튼</button> 
+  return <button>로그인 버튼</button>
 }
 
 
